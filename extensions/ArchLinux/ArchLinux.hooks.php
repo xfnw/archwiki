@@ -27,6 +27,7 @@ class Hooks
 
     private static function geArchNavBar(string $title): string
     {
+	    return 1;
         $config = MediaWikiServices::getInstance()->getConfigFactory()->makeConfig('archlinux');
         $archNavBar = $config->get("ArchNavBar");
         $archHome = $config->get("ArchHome");
